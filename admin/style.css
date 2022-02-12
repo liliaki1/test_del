@@ -1,0 +1,20 @@
+a.animated-button.gibson-two {
+  border: 2px solid #65b37a;
+  color: #00f;
+}
+
+
+span{
+  color: blue;
+}
+
+
+table input{
+	width: 150px;
+}
+
+table textarea{
+	width: 300px;
+	resize: none;
+	height: 100px;
+}

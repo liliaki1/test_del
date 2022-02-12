@@ -1,0 +1,67 @@
+body {
+   background-image: url("https://img3.akspic.ru/originals/9/3/0/4/6/164039-galaktika_twitch_banner-podergivanie-veb_banner-potokovoe_multimedia-gejmer-1920x1080.jpg");
+    font-family: 'Mukta', sans-serif;
+}
+.name{
+    font-size: 40px;
+    color: red;
+    text-align: center;
+}
+.info{
+    font-size: 15px;
+    color: red;
+    text-align: center;
+}
+.pass{
+     color: red;
+     text-align: center;
+     font-size: 50px;
+}
+.info1{
+    font-size: 20px;
+    color: #999;
+}
+
+.about__block{
+   display: flex;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  max-width: 20em;
+  position: relative;
+  padding: 3em;
+  box-sizing: border-box;
+  color: #FFF;
+  background: #000;
+  background-clip: padding-box; /* !important */
+  border: solid 5px transparent; /* !important */
+  border-radius: 1em;
+  height: 200px;
+}
+.about{
+    font-size: 20px;
+    color: red;
+    text-align: left;
+}
+.module-border-wrap {
+  max-width: 350px;
+  padding: 1rem;
+  position: relative;
+  background: linear-gradient(to right, red, purple);
+  padding: 3px;
+  margin: 80px;
+}
+
+.module {
+  background: #222;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.conteiner{
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+

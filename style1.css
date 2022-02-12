@@ -1,0 +1,188 @@
+table {
+font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+font-size: 14px;
+border-radius: 10px;
+border-spacing: 0;
+text-align: center;
+}
+th {
+background: #BCEBDD;
+color: black;
+padding: 10px 20px;
+}
+th, td {
+border-style: solid;
+border-width: 0 1px 1px 0;
+border-color: white;
+}
+th:first-child, td:first-child {
+text-align: left;
+}
+th:first-child {
+border-top-left-radius: 10px;
+}
+th:last-child {
+border-top-right-radius: 10px;
+border-right: none;
+}
+td {
+padding: 10px 20px;
+background: #F8E391;
+}
+tr:last-child td:first-child {
+border-radius: 0 0 0 10px;
+}
+tr:last-child td:last-child {
+border-radius: 0 0 10px 0;
+}
+tr td:last-child {
+border-right: none;
+}
+
+
+
+/* person card */
+
+
+.my_container{
+	width: 100%;
+	border: 2px solid black;
+	border-radius: 10px;
+	box-shadow: 0px 0px 15px black;
+
+	padding: 30px;
+	margin-top: 15px;
+
+	background-color: white;
+}
+
+.line{
+	display: flex;
+}
+/*///////////////*/
+.line.message{
+	display: block;
+}
+
+.line.message .article{
+	width: 100%;
+	margin: 12px;
+}
+
+.line.message .art_date{
+	font-size: 8px;
+	color: #888;
+}
+
+
+/*///////////////*/
+.line_text{
+	padding: 20px;
+	width: 100%;
+}
+
+.my_text{
+	color: #666;
+	font-size: 22px;
+}
+
+.my_text span{
+	color: black;
+}
+
+
+body{
+	background: linear-gradient(to right, #F6EFD2, #CEAD78);
+}
+
+hr{
+	width: 70%;
+	margin: 20px auto !important;
+
+}
+
+
+.first_tr{
+	border-top: 1px solid;
+}
+
+.btn{
+	display: none !important;
+}
+
+
+/* pagination */
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+
+/*  Person_cart */
+
+.line_img img{
+	width: 350px;
+}
+
+@media (max-width: 1000px) {
+	.line_img img{
+		width: 200px;
+	}
+}
+
+@media (max-width: 991px) {
+	navbar{
+		display: none !important;
+	}
+
+	.btn{
+		display: inline-block !important;
+	}
+}
+
+@media (max-width: 500px) {
+	hr{
+		margin: 3px auto !important;
+	}
+
+	.my_text{
+		font-size: 16px;
+	}
+}
+
+
+@media (max-width: 440px) {
+	.line{
+		display: block;
+	}
+	.line_img img{
+		width: 100%;
+	}
+	.my_container{
+		margin: 0;
+		padding: 10px;
+		border-radius: 0;
+		border: 0;
+	}
+	.container{
+		padding: 0;
+	}
+}
